@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class MaxPosition {
     public static void main(String[] args) {
-        int arr[]={23,10,15};
+        int arr[]={3,10,5,};
 
         System.out.println("Array elements ");
         for (int i = 0; i < arr.length; i++) {
