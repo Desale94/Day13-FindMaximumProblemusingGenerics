@@ -3,12 +3,7 @@ package com.bridgelabz.Maximum;
 import java.util.Scanner;
 
 public class MaxFloatValue {
-    public static void testMaximum() {
-        Scanner s = new Scanner(System.in);
-        System.out.println("Enter 3 Float number: ");
-        Float x = s.nextFloat();
-        Float y = s.nextFloat();
-        Float z = s.nextFloat();
+    public void testMaximum(Float x,Float y,Float z) {
         Float max = x;
         if (y.compareTo(max) > 0) {
             max = y;
@@ -24,7 +19,8 @@ public class MaxFloatValue {
     }
     public static void main(String[] args) {
         MaxFloatValue maxFloat = new MaxFloatValue();
-        maxFloat.testMaximum();
+        Float x=6.6f, y=4.4f, z=7.7f;
+        maxFloat.testMaximum(x,y,z);
 
     }
 }
