@@ -3,12 +3,7 @@ package com.bridgelabz.Maximum;
 import java.util.Scanner;
 
 public class MaxIntValue {
-    public static void testMaximum() {
-        Scanner s = new Scanner(System.in);
-        System.out.println("Enter 3 integer number: ");
-        Integer x = s.nextInt();
-        Integer y = s.nextInt();
-        Integer z = s.nextInt();
+    public void testMaximum(Integer x,Integer y,Integer z) {
         Integer max = x;
         if (y.compareTo(max) > 0) {
             max = y;
@@ -22,8 +17,9 @@ public class MaxIntValue {
         System.out.printf("Max of %s,%s and %s: max is %s \n", x, y, z, max);
     }
     public static void main(String[] args) {
-        MaxIntValue maxIntValue = new MaxIntValue();
-        maxIntValue.testMaximum();
+        MaxFloatValue maxFloat = new MaxFloatValue();
+        Integer x=3, y=10, z=15;
+        maxFloat.testMaximum(x,y,z);
 
     }
 }
