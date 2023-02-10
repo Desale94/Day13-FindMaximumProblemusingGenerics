@@ -2,7 +2,7 @@ package com.bridgelabz.Maximum;
 
 public class MaxPosString {
     public static void main(String[] args) {
-        String arr[]={"apple","peach","banana"};
+        String arr[]={"apple","banana","peach"};
 
         System.out.println("Array elements ");
         for (int i = 0; i < arr.length; i++) {
