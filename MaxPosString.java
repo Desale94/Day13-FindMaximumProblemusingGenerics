@@ -1,8 +1,8 @@
 package com.bridgelabz.Maximum;
 
-public class MaxPosstring {
+public class MaxPosString {
     public static void main(String[] args) {
-        String arr[]={"peach","apple","banana"};
+        String arr[]={"apple","peach","banana"};
 
         System.out.println("Array elements ");
         for (int i = 0; i < arr.length; i++) {
